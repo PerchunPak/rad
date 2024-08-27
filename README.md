@@ -24,7 +24,7 @@ Try this `rad` one-liner:
 
 ```shell
 $ # Press `Ctrl+Z` and use the `fg` command as needed
-$ rad docs serve --all --host=0.0.0.0 &; rad watch
+$ rad docs serve --all --host=0.0.0.0 & rad watch
 ```
 
 Then, visit [`localhost:7000`](http://localhost:7000/), or open
